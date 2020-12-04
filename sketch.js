@@ -53,20 +53,20 @@ function draw() {
 
   
   fill('white');
-  text("Food Stock : " + foodS, 400, 20);
+  text("Food Stock : " + foodS, 430, 30);
   
 
   
   fill(255,255,254);
   textSize(15);
   if(lastFed >= 12){
-    text("Last Feed: " + lastFed%12 + "PM", 350, 30);
+    text("Last Feed: " + lastFed%12 + "PM", 330, 30);
   }
   else if(lastFed == 0){
-    text("Last Feed: 12 AM", 350, 30);
+    text("Last Feed: 12 AM", 330, 30);
   }
   else{
-    text("Last Feed: " + lastFed + "AM", 350, 30);
+    text("Last Feed: " + lastFed + "AM", 330, 30);
   }
   drawSprites();
 
